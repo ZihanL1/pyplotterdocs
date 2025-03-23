@@ -29,7 +29,7 @@ extensions = [
     'sphinx.ext.mathjax',
 ]
 
-templates_path = ['_templates']
+templates_path = ['docs/source/_templates']
 exclude_patterns = []
 
 
@@ -38,4 +38,4 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_static_path = ['docs/source/_static']
